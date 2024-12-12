@@ -2,7 +2,7 @@
 # End-to-End Machine Learning Project: Student Performance Prediction
 
 ## Overview
-This project demonstrates a complete end-to-end machine learning pipeline to predict student performance based on various factors. It involves all stages of a machine learning project, including data acquisition, preprocessing, analysis, model training, and deployment. The solution is deployed on the Streamlit platform, providing an interactive interface for predictions.
+This project demonstrates a complete end-to-end machine learning pipeline to predict student performance based on various factors. It involves all stages of a machine learning project, including data acquisition, preprocessing, analysis, model training, and deployment. The solution is deployed on the Flask framework, providing an interactive web application for predictions.
 
 ---
 
@@ -61,9 +61,9 @@ This project demonstrates a complete end-to-end machine learning pipeline to pre
 ---
 
 ### 7. Deployment
-- **Platform Used:** Streamlit
+- **Platform Used:** Flask
 - **Features:**
-  - User-friendly interface for inputting student data.
+  - User-friendly web interface for inputting student data.
   - Real-time predictions of student scores based on the trained model.
   - Visualization of feature importance and other insights.
 
@@ -73,7 +73,7 @@ This project demonstrates a complete end-to-end machine learning pipeline to pre
 
 ### Prerequisites
 - Python 3.6+
-- Required libraries: pandas, scikit-learn, matplotlib, seaborn, streamlit
+- Required libraries: pandas, scikit-learn, matplotlib, seaborn, Flask
 
 ### Installation
 1. Clone the Repository:
@@ -90,11 +90,11 @@ This project demonstrates a complete end-to-end machine learning pipeline to pre
    ```
 
 ### Running the Application
-1. Run the Streamlit app:
+1. Run the Flask app:
    ```bash
-   streamlit run app.py
+   python app.py
    ```
-2. Open a browser and go to `http://localhost:8501/` to interact with the application.
+2. Open a browser and go to `http://localhost:5000/` to interact with the application.
 
 ---
 
@@ -112,7 +112,7 @@ This project demonstrates a complete end-to-end machine learning pipeline to pre
 ---
 
 ## Acknowledgements
-- **Streamlit:** For creating an interactive application.
+- **Flask:** For creating a robust web application framework.
 - **scikit-learn:** For machine learning model training and evaluation.
 - **Dataset Contributors:** For providing the student performance dataset.
 
@@ -120,5 +120,4 @@ This project demonstrates a complete end-to-end machine learning pipeline to pre
 
 ## Author
 This project was developed as part of an initiative to explore end-to-end machine learning workflows and their deployment.
-
 
